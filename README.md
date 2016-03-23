@@ -1,14 +1,19 @@
 [![Build Status](https://travis-ci.org/LocusEnergy/ember-interpolate-helper.svg?branch=master)](https://travis-ci.org/LocusEnergy/ember-interpolate-helper)
 
-# Interpolate
+# ember-interpolate-helper
 
-This README outlines the details of collaborating on this Ember addon.
+A simple template helper for ES6-style interpolations in your markup.
 
-## Installation
+To install,
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install ember-interpolate`
+
+## Usage
+
+```hbs
+{{interpolate '${someText} is good with bread' someText='butter'}}
+```
+
 
 ## Running
 
