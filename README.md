@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/LocusEnergy/ember-interpolate-helper.svg?branch=master)](https://travis-ci.org/LocusEnergy/ember-interpolate-helper)
+
 # Interpolate
 
 This README outlines the details of collaborating on this Ember addon.
