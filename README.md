@@ -2,7 +2,7 @@
 
 # ember-interpolate-helper
 
-A simple template helper for ES6-style interpolations in your markup.
+A simple template helper for ES6-style interpolations in your htmlbars markup.
 
 To install,
 
@@ -11,9 +11,8 @@ To install,
 ## Usage
 
 ```hbs
-{{interpolate '${someText} is good with bread' someText='butter'}}
+{{i '${someText} is good with bread' someText='butter'}}
 ```
-
 
 ## Running
 

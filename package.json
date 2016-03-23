@@ -1,7 +1,7 @@
 {
-  "name": "interpolate",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-interpolate-helper",
+  "version": "0.0.1",
+  "description": "A simple template helper for ES6-style interpolations in htmlbars.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -40,7 +40,7 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon", "htmlbars", "helper", "locus-energy"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"

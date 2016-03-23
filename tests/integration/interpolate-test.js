@@ -7,7 +7,7 @@ moduleForComponent('interpolate', 'Integration | Component | interpolate helper'
 
 test('interpolates values from string', function(assert) {
   this.set('toBeInterpolated', '${b}');
-  this.render(hbs`{{interpolate toBeInterpolated b='cat' d='fish'}}`);
+  this.render(hbs`{{i toBeInterpolated b='cat' d='fish'}}`);
   assert.equal(this.$().text().trim(), 'cat');
 
   this.set('toBeInterpolated', '${b}${d}');

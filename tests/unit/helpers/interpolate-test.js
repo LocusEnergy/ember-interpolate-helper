@@ -1,4 +1,4 @@
-import { interpolate } from 'dummy/helpers/interpolate';
+import { interpolate } from 'dummy/helpers/i';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | interpolate');
