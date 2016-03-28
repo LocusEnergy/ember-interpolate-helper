@@ -1,6 +1,6 @@
 {
   "name": "ember-interpolate-helper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple template helper for ES6-style interpolations in htmlbars.",
   "directories": {
     "doc": "doc",
@@ -11,11 +11,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/LocusEnergy/ember-interpolate-helper",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": [
+    "Zachary Zibrat <zach.zibrat@locusenergy.com>",
+    "Taras Mankovski <taras@embersherpa.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -40,7 +43,10 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon", "htmlbars", "helper", "locus-energy"
+    "ember-addon",
+    "htmlbars",
+    "helper",
+    "locus-energy"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
