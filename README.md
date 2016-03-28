@@ -10,8 +10,16 @@ To install,
 
 ## Usage
 
+### helper
+
 ```hbs
 {{i '${someText} is good with bread' someText='butter'}}
+```
+
+### subexpression
+
+```hbs
+{{component (i 'my-${c}-widget' c=color)}}
 ```
 
 ## Running
