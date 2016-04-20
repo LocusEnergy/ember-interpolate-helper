@@ -2,7 +2,7 @@
 
 # ember-interpolate-helper
 
-A simple template helper for ES6-style interpolations in your htmlbars markup.
+A helper for string interpolations in your Glimmer templates akin to ES6 template literals.
 
 To install,
 
