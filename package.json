@@ -1,6 +1,6 @@
 {
   "name": "ember-interpolate-helper",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A simple template helper for ES6-style interpolations in htmlbars.",
   "directories": {
     "doc": "doc",
