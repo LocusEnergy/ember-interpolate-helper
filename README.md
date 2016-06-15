@@ -6,7 +6,7 @@ A helper for string interpolations in your Glimmer templates akin to ES6 templat
 
 To install,
 
-`ember install ember-interpolate`
+`ember install ember-interpolate-helper`
 
 ## Usage
 
